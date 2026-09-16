@@ -1,0 +1,21 @@
+{
+  "store": "Made by God",
+  "phone": "8979481407",
+  "email": "zuckerbergme90@gmail.com",
+  "payment": {
+    "upi_id": "8979481407@ptyes",
+    "methods": [
+      "UPI",
+      "Net Banking",
+      "Credit Card",
+      "Debit Card",
+      "COD"
+    ],
+    "shipping": 100,
+    "cod_extra_charge": 30
+  },
+  "coupon": {
+    "code": "FIRST100",
+    "discount": 100
+  }
+}
