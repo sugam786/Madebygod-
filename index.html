@@ -11,13 +11,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="announcement">✨ First purchase: ₹100 OFF with <b>FIRST100</b> <span>|</span> 7 Days Easy Return & Exchange</div>
 
   <header class="header">
-    <a class="brand" href="#home" aria-label="Made by God home"><img class="brand-logo" src="images/mbg-logo.png" alt="Made by God MBG logo"></a>
+    <a class="brand" href="#home" aria-label="Made by God home">
+      <img class="brand-logo" src="mbg-logo.png" alt="Made by God MBG logo">
+    </a>
+
     <nav>
-      <a class="active" href="#home">Home</a><a href="#shop">Shop</a><a href="#new">New Arrivals</a><a href="#bestsellers">Best Sellers</a><a href="#policies">Returns</a><a href="#contact">Contact</a>
+      <a class="active" href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#new">New Arrivals</a>
+      <a href="#bestsellers">Best Sellers</a>
+      <a href="#policies">Returns</a>
+      <a href="#contact">Contact</a>
     </nav>
+
     <div class="header-actions">
       <button aria-label="Search" onclick="focusSearch()">⌕</button>
       <button aria-label="Customer login" onclick="openAccount()">♙</button>
@@ -27,63 +37,346 @@
   </header>
 
   <main id="home">
+
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">MADE BY GOD</p>
         <h1>Style That Speaks<br><em>Grace & Confidence</em></h1>
         <p class="hero-text">Elegant women's shrugs and occasion styles, selected to make every celebration feel special.</p>
-        <div class="hero-buttons"><a class="btn primary" href="#shop">SHOP NOW <span>→</span></a><a class="btn secondary" href="#new">NEW ARRIVALS</a></div>
-        <div class="trust-row"><div><strong>✧ Premium Quality</strong><small>Handpicked with care</small></div><div><strong>⟳ 7-Day Return</strong><small>Easy return & exchange</small></div><div><strong>▣ Secure Checkout</strong><small>UPI, cards & net banking</small></div></div>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#shop">SHOP NOW <span>→</span></a>
+          <a class="btn secondary" href="#new">NEW ARRIVALS</a>
+        </div>
+
+        <div class="trust-row">
+          <div><strong>✧ Premium Quality</strong><small>Handpicked with care</small></div>
+          <div><strong>⟳ 7-Day Return</strong><small>Easy return & exchange</small></div>
+          <div><strong>▣ Secure Checkout</strong><small>UPI, cards & net banking</small></div>
+        </div>
       </div>
-      <div class="hero-image"><img src="images/product-01-pink.png" alt="Pink embellished shrug on a model"></div>
+
+      <div class="hero-image">
+        <img src="product-01-pink.png" alt="Pink embellished shrug on a model">
+      </div>
     </section>
 
-    <section class="offer-strip"><div><b>FIRST PURCHASE OFFER</b><span>Get ₹100 OFF your first order</span></div><button class="coupon-chip" onclick="copyCoupon()">FIRST100 <small>Copy</small></button></section>
+    <section class="offer-strip">
+      <div>
+        <b>FIRST PURCHASE OFFER</b>
+        <span>Get ₹100 OFF your first order</span>
+      </div>
+      <button class="coupon-chip" onclick="copyCoupon()">FIRST100 <small>Copy</small></button>
+    </section>
 
     <section class="categories">
-      <div class="section-title"><p class="eyebrow">EXPLORE</p><h2>Shop the Collection</h2></div>
+      <div class="section-title">
+        <p class="eyebrow">EXPLORE</p>
+        <h2>Shop the Collection</h2>
+      </div>
+
       <div class="category-grid">
-        <a href="#shop" class="category"><div class="circle"><img src="images/product-01-pink.png" alt="Pink shrug"></div><h3>Pink Styles</h3><span>SHOP NOW</span></a>
-        <a href="#shop" class="category"><div class="circle"><img src="images/product-06-navy.png" alt="Navy shrug"></div><h3>Everyday Layers</h3><span>SHOP NOW</span></a>
-        <a href="#shop" class="category"><div class="circle"><img src="images/product-07-yellow-party.png" alt="Yellow party shrug"></div><h3>Party Wear</h3><span>SHOP NOW</span></a>
-        <a href="#new" class="category"><div class="circle"><img src="images/product-08-ruby.png" alt="Ruby red party style"></div><h3>New Arrivals</h3><span>SHOP NOW</span></a>
-        <a href="#bestsellers" class="category"><div class="circle"><img src="images/product-09-ivory.png" alt="Ivory embroidered style"></div><h3>Best Sellers</h3><span>SHOP NOW</span></a>
-        <a href="#shop" class="category"><div class="circle"><img src="images/product-02-colour-collection.png" alt="Colour collection"></div><h3>All Collection</h3><span>SHOP NOW</span></a>
+
+        <a href="#shop" class="category">
+          <div class="circle">
+            <img src="product-01-pink.png" alt="Pink shrug">
+          </div>
+          <h3>Pink Styles</h3>
+          <span>SHOP NOW</span>
+        </a>
+
+        <a href="#shop" class="category">
+          <div class="circle">
+            <img src="product-06-navy.png" alt="Navy shrug">
+          </div>
+          <h3>Everyday Layers</h3>
+          <span>SHOP NOW</span>
+        </a>
+
+        <a href="#shop" class="category">
+          <div class="circle">
+            <img src="product-07-yellow-party.png" alt="Yellow party shrug">
+          </div>
+          <h3>Party Wear</h3>
+          <span>SHOP NOW</span>
+        </a>
+
+        <a href="#new" class="category">
+          <div class="circle">
+            <img src="product-08-ruby.png" alt="Ruby red party style">
+          </div>
+          <h3>New Arrivals</h3>
+          <span>SHOP NOW</span>
+        </a>
+
+        <a href="#bestsellers" class="category">
+          <div class="circle">
+            <img src="product-09-ivory.png" alt="Ivory embroidered style">
+          </div>
+          <h3>Best Sellers</h3>
+          <span>SHOP NOW</span>
+        </a>
+
+        <a href="#shop" class="category">
+          <div class="circle">
+            <img src="product-02-colour-collection.png" alt="Colour collection">
+          </div>
+          <h3>All Collection</h3>
+          <span>SHOP NOW</span>
+        </a>
+
       </div>
     </section>
 
     <section class="shop-section" id="shop">
-      <div class="section-title"><p class="eyebrow">OUR COLLECTION</p><h2>Featured Styles</h2><p>Every design is ₹1,500. Choose your colour and size S, M, L or XL.</p></div>
-      <div class="shop-tools"><div class="search-wrap"><input id="search" aria-label="Search products" placeholder="Search products..." oninput="filterProducts()"></div><select id="sort" onchange="sortProducts()"><option value="default">Sort: Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option></select></div>
+      <div class="section-title">
+        <p class="eyebrow">OUR COLLECTION</p>
+        <h2>Featured Styles</h2>
+        <p>Every design is ₹1,500. Choose your colour and size S, M, L or XL.</p>
+      </div>
+
+      <div class="shop-tools">
+        <div class="search-wrap">
+          <input id="search" aria-label="Search products" placeholder="Search products..." oninput="filterProducts()">
+        </div>
+
+        <select id="sort" onchange="sortProducts()">
+          <option value="default">Sort: Featured</option>
+          <option value="low">Price: Low to High</option>
+          <option value="high">Price: High to Low</option>
+        </select>
+      </div>
+
       <div class="products" id="productGrid"></div>
     </section>
 
-    <section class="story" id="new"><div class="story-image"><img src="images/product-02-colour-collection.png" alt="Multiple colour shrug collection"></div><div class="story-copy"><p class="eyebrow">NEW ARRIVALS</p><h2>One Collection. Many Colours.</h2><p>Discover elegant layers in pink, blue, ivory, red, yellow, navy and more. Pick the design, colour and size that suits you.</p><a class="btn primary" href="#shop">EXPLORE COLLECTION →</a></div></section>
+    <section class="story" id="new">
+      <div class="story-image">
+        <img src="product-02-colour-collection.png" alt="Multiple colour shrug collection">
+      </div>
 
-    <section class="bestsellers" id="bestsellers"><div class="section-title"><p class="eyebrow">CUSTOMER FAVOURITES</p><h2>Best Sellers</h2></div><div class="best-grid" id="bestGrid"></div></section>
+      <div class="story-copy">
+        <p class="eyebrow">NEW ARRIVALS</p>
+        <h2>One Collection. Many Colours.</h2>
+        <p>Discover elegant layers in pink, blue, ivory, red, yellow, navy and more. Pick the design, colour and size that suits you.</p>
+        <a class="btn primary" href="#shop">EXPLORE COLLECTION →</a>
+      </div>
+    </section>
 
-    <section class="benefits"><div><b>₹</b><h3>Shipping ₹100</h3><p>Simple flat shipping charge</p></div><div><b>↻</b><h3>7-Day Return</h3><p>Eligible unworn items</p></div><div><b>⇄</b><h3>Easy Exchange</h3><p>Within 7 days</p></div><div><b>✓</b><h3>Secure Payment</h3><p>UPI, cards & net banking</p></div></section>
+    <section class="bestsellers" id="bestsellers">
+      <div class="section-title">
+        <p class="eyebrow">CUSTOMER FAVOURITES</p>
+        <h2>Best Sellers</h2>
+      </div>
+      <div class="best-grid" id="bestGrid"></div>
+    </section>
 
-    <section class="policies" id="policies"><div class="section-title"><p class="eyebrow">CUSTOMER CARE</p><h2>Simple, Clear Policies</h2></div><div class="policy-grid"><article><h3>Return within 7 days</h3><p>Request a return within 7 days of delivery. Items should be unworn and have original tags attached.</p></article><article><h3>Exchange within 7 days</h3><p>Exchange eligible items within 7 days. Exchange shipping charges are paid by the customer.</p></article><article><h3>Delivery & COD charges</h3><p>Shipping is ₹100 per order. Cash on Delivery has an additional ₹30 COD fee, so COD shipping/fees are ₹130 in total.</p></article><article><h3>MBG Wallet</h3><p>Your wallet can hold eligible store credits or refunds and can be used toward a future Made by God order.</p></article></div></section>
+    <section class="benefits">
+      <div><b>₹</b><h3>Shipping ₹100</h3><p>Simple flat shipping charge</p></div>
+      <div><b>↻</b><h3>7-Day Return</h3><p>Eligible unworn items</p></div>
+      <div><b>⇄</b><h3>Easy Exchange</h3><p>Within 7 days</p></div>
+      <div><b>✓</b><h3>Secure Payment</h3><p>UPI, cards & net banking</p></div>
+    </section>
 
-    <section class="about" id="about"><p class="eyebrow">OUR PROMISE</p><h2>Made with Grace. Chosen with Care.</h2><p>Made by God is built around beautiful fashion, genuine service and a shopping experience our customers can trust.</p></section>
+    <section class="policies" id="policies">
+      <div class="section-title">
+        <p class="eyebrow">CUSTOMER CARE</p>
+        <h2>Simple, Clear Policies</h2>
+      </div>
+
+      <div class="policy-grid">
+        <article>
+          <h3>Return within 7 days</h3>
+          <p>Request a return within 7 days of delivery. Items should be unworn and have original tags attached.</p>
+        </article>
+
+        <article>
+          <h3>Exchange within 7 days</h3>
+          <p>Exchange eligible items within 7 days. Exchange shipping charges are paid by the customer.</p>
+        </article>
+
+        <article>
+          <h3>Delivery & COD charges</h3>
+          <p>Shipping is ₹100 per order. Cash on Delivery has an additional ₹30 COD fee, so COD shipping/fees are ₹130 in total.</p>
+        </article>
+
+        <article>
+          <h3>MBG Wallet</h3>
+          <p>Your wallet can hold eligible store credits or refunds and can be used toward a future Made by God order.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">OUR PROMISE</p>
+      <h2>Made with Grace. Chosen with Care.</h2>
+      <p>Made by God is built around beautiful fashion, genuine service and a shopping experience our customers can trust.</p>
+    </section>
+
   </main>
 
-  <footer id="contact"><div class="footer-top"><div><img class="footer-logo" src="images/mbg-logo.png" alt="Made by God MBG logo"><h3>MADE BY GOD</h3><p>Grace & confidence in every style.</p></div><div><h4>Quick Links</h4><a href="#shop">Shop</a><a href="#new">New Arrivals</a><a href="#policies">Returns & Exchange</a></div><div><h4>Customer Care</h4><a href="tel:+918979481407">📞 8979481407</a><a href="mailto:zuckerbergme90@gmail.com">✉️ zuckerbergme90@gmail.com</a><span>7 Days Return & Exchange</span></div><div><h4>Account</h4><button class="footer-link" onclick="openAccount()">Customer Details</button><button class="footer-link" onclick="openWallet()">MBG Wallet</button></div></div><div class="footer-bottom">© <span id="year"></span> Made by God. All rights reserved.</div></footer>
+  <footer id="contact">
 
-  <div class="cart-panel" id="cartPanel"><div class="cart-head"><h2>Your Cart</h2><button onclick="closeCart()">×</button></div><div id="cartItems"></div><div class="cart-total"><strong>Subtotal</strong><strong id="cartTotal">₹0</strong></div><button class="btn primary checkout" onclick="openCheckout()">CHECKOUT →</button></div>
+    <div class="footer-top">
+
+      <div>
+        <img class="footer-logo" src="mbg-logo.png" alt="Made by God MBG logo">
+        <h3>MADE BY GOD</h3>
+        <p>Grace & confidence in every style.</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#shop">Shop</a>
+        <a href="#new">New Arrivals</a>
+        <a href="#policies">Returns & Exchange</a>
+      </div>
+
+      <div>
+        <h4>Customer Care</h4>
+        <a href="tel:+918979481407">📞 8979481407</a>
+        <a href="mailto:zuckerbergme90@gmail.com">✉️ zuckerbergme90@gmail.com</a>
+        <span>7 Days Return & Exchange</span>
+      </div>
+
+      <div>
+        <h4>Account</h4>
+        <button class="footer-link" onclick="openAccount()">Customer Details</button>
+        <button class="footer-link" onclick="openWallet()">MBG Wallet</button>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © <span id="year"></span> Made by God. All rights reserved.
+    </div>
+
+  </footer>
+
+  <div class="cart-panel" id="cartPanel">
+    <div class="cart-head">
+      <h2>Your Cart</h2>
+      <button onclick="closeCart()">×</button>
+    </div>
+    <div id="cartItems"></div>
+    <div class="cart-total">
+      <strong>Subtotal</strong>
+      <strong id="cartTotal">₹0</strong>
+    </div>
+    <button class="btn primary checkout" onclick="openCheckout()">CHECKOUT →</button>
+  </div>
+
   <div class="overlay" id="overlay" onclick="closeAllPanels()"></div>
 
-  <div class="modal" id="checkoutModal"><div class="modal-card"><button class="modal-close" onclick="closeModal('checkoutModal')">×</button><p class="eyebrow">SECURE CHECKOUT</p><h2>Complete Your Order</h2><div id="checkoutSummary"></div><div class="coupon-row"><input id="coupon" placeholder="Coupon code"><button onclick="applyCoupon()">APPLY</button></div><div id="couponMessage" class="form-note"></div><label>Payment method</label><div class="payment-options"><button data-method="UPI" onclick="selectPayment('UPI')">UPI</button><button data-method="Net Banking" onclick="selectPayment('Net Banking')">NET BANKING</button><button data-method="Credit Card" onclick="selectPayment('Credit Card')">CREDIT CARD</button><button data-method="Debit Card" onclick="selectPayment('Debit Card')">DEBIT CARD</button><button data-method="COD" onclick="selectPayment('COD')">COD <small>+₹30 COD fee</small></button></div><div class="customer-save-row"><button type="button" class="text-button" onclick="openAccount()">Save / edit customer details →</button></div><div class="checkout-fields"><input id="customerName" placeholder="Full name"><input id="customerPhone" placeholder="Phone number"><input id="customerAddress" placeholder="Delivery address"></div><div class="order-total"><span>Final total</span><strong id="finalTotal">₹0</strong></div><button class="btn primary full" onclick="placeOrder()">PLACE ORDER</button><p class="form-note">UPI, cards and net banking are available as payment choices. Shipping is ₹100 and COD adds ₹30. Real online payments require a live payment gateway such as Razorpay.</p></div></div>
+  <div class="modal" id="checkoutModal">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('checkoutModal')">×</button>
+      <p class="eyebrow">SECURE CHECKOUT</p>
+      <h2>Complete Your Order</h2>
 
-  <div class="modal" id="accountModal"><div class="modal-card"><button class="modal-close" onclick="closeModal('accountModal')">×</button><p class="eyebrow">CUSTOMER DETAILS</p><h2>My Customer Details</h2><div id="accountState"></div><div id="loginForm" class="customer-details-form"><input id="loginName" placeholder="Full name"><input id="loginEmail" type="email" placeholder="Email address"><input id="loginPhone" inputmode="tel" placeholder="Phone number"><input id="loginAddress" placeholder="Delivery address"><div class="two-fields"><input id="loginCity" placeholder="City"><input id="loginState" placeholder="State"></div><input id="loginPincode" inputmode="numeric" placeholder="Pincode"><label class="check-row"><input id="promoOptIn" type="checkbox" checked> <span>Send me Made by God offers, promotions and new-arrival updates.</span></label><button class="btn primary full" onclick="loginCustomer()">SAVE CUSTOMER DETAILS</button></div><button class="text-button" onclick="openWallet()">Open MBG Wallet →</button></div></div>
+      <div id="checkoutSummary"></div>
 
-  <div class="modal" id="walletModal"><div class="modal-card"><button class="modal-close" onclick="closeModal('walletModal')">×</button><p class="eyebrow">MBG WALLET</p><h2>Your Wallet</h2><div class="wallet-balance" id="walletBalance">₹0</div><p>Wallet credits can be used toward future purchases. Refund credits can be added here when your real store/refund system is connected.</p><button class="btn secondary full" onclick="closeModal('walletModal');openAccount()">ACCOUNT SETTINGS</button></div></div>
+      <div class="coupon-row">
+        <input id="coupon" placeholder="Coupon code">
+        <button onclick="applyCoupon()">APPLY</button>
+      </div>
 
-  <div class="modal" id="successModal"><div class="modal-card center"><div class="success-icon">✓</div><p class="eyebrow">ORDER RECEIVED</p><h2>Thank you for shopping with Made by God.</h2><p id="successText"></p><button class="btn primary full" onclick="closeAllPanels()">CONTINUE SHOPPING</button></div></div>
+      <div id="couponMessage" class="form-note"></div>
+
+      <label>Payment method</label>
+
+      <div class="payment-options">
+        <button data-method="UPI" onclick="selectPayment('UPI')">UPI</button>
+        <button data-method="Net Banking" onclick="selectPayment('Net Banking')">NET BANKING</button>
+        <button data-method="Credit Card" onclick="selectPayment('Credit Card')">CREDIT CARD</button>
+        <button data-method="Debit Card" onclick="selectPayment('Debit Card')">DEBIT CARD</button>
+        <button data-method="COD" onclick="selectPayment('COD')">COD <small>+₹30 COD fee</small></button>
+      </div>
+
+      <div class="customer-save-row">
+        <button type="button" class="text-button" onclick="openAccount()">Save / edit customer details →</button>
+      </div>
+
+      <div class="checkout-fields">
+        <input id="customerName" placeholder="Full name">
+        <input id="customerPhone" placeholder="Phone number">
+        <input id="customerAddress" placeholder="Delivery address">
+      </div>
+
+      <div class="order-total">
+        <span>Final total</span>
+        <strong id="finalTotal">₹0</strong>
+      </div>
+
+      <button class="btn primary full" onclick="placeOrder()">PLACE ORDER</button>
+
+      <p class="form-note">
+        UPI, cards and net banking are available as payment choices.
+        Shipping is ₹100 and COD adds ₹30.
+        Real online payments require a live payment gateway such as Razorpay.
+      </p>
+    </div>
+  </div>
+
+  <div class="modal" id="accountModal">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('accountModal')">×</button>
+      <p class="eyebrow">CUSTOMER DETAILS</p>
+      <h2>My Customer Details</h2>
+
+      <div id="accountState"></div>
+
+      <div id="loginForm" class="customer-details-form">
+        <input id="loginName" placeholder="Full name">
+        <input id="loginEmail" type="email" placeholder="Email address">
+        <input id="loginPhone" inputmode="tel" placeholder="Phone number">
+        <input id="loginAddress" placeholder="Delivery address">
+
+        <div class="two-fields">
+          <input id="loginCity" placeholder="City">
+          <input id="loginState" placeholder="State">
+        </div>
+
+        <input id="loginPincode" inputmode="numeric" placeholder="Pincode">
+
+        <label class="check-row">
+          <input id="promoOptIn" type="checkbox" checked>
+          <span>Send me Made by God offers, promotions and new-arrival updates.</span>
+        </label>
+
+        <button class="btn primary full" onclick="loginCustomer()">SAVE CUSTOMER DETAILS</button>
+      </div>
+
+      <button class="text-button" onclick="openWallet()">Open MBG Wallet →</button>
+    </div>
+  </div>
+
+  <div class="modal" id="walletModal">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('walletModal')">×</button>
+      <p class="eyebrow">MBG WALLET</p>
+      <h2>Your Wallet</h2>
+      <div class="wallet-balance" id="walletBalance">₹0</div>
+      <p>Wallet credits can be used toward future purchases. Refund credits can be added here when your real store/refund system is connected.</p>
+      <button class="btn secondary full" onclick="closeModal('walletModal');openAccount()">ACCOUNT SETTINGS</button>
+    </div>
+  </div>
+
+  <div class="modal" id="successModal">
+    <div class="modal-card center">
+      <div class="success-icon">✓</div>
+      <p class="eyebrow">ORDER RECEIVED</p>
+      <h2>Thank you for shopping with Made by God.</h2>
+      <p id="successText"></p>
+      <button class="btn primary full" onclick="closeAllPanels()">CONTINUE SHOPPING</button>
+    </div>
+  </div>
+
   <div class="toast" id="toast"></div>
+
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-<script src="script.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>
 
